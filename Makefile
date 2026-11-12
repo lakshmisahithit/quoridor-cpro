@@ -1,6 +1,5 @@
-cpro_project.exe: $(SRC)
-	gcc -Wall -Iinclude src/main.c src/game.c src/board.c src/input.c -o cpro_project.exe
+game_test.exe: $(SRC)
+	gcc -Wall -Iinclude src/main.c src/game.c src/board.c src/input.c -o game_test.exe
 
 clean:
-	del cpro_project.exe
-
+	del game_test.exe
